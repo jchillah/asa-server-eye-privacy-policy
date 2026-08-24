@@ -1,54 +1,32 @@
 # Privacy Policy – ASA Server Eye
 
-Last updated: March 19, 2026
+Last updated: August 24, 2026
 
-## 1. General Information
-This app (“ASA Server Eye”) is developed by Michael Winkler.
-We take your privacy seriously. This policy explains what data we collect and how we use it.
+ASA Server Eye is developed by Michael Winkler. This notice summarizes the data processed by the app. The German legal/privacy page in `index.html` is the primary detailed notice.
 
-## 2. Data We Collect
-We may collect the following data:
-- Device information (e.g. device model, OS version)  
-- App usage data  
-- IP address (automatically transmitted)  
-- Firebase authentication data (if login is used)  
+## Data processed depending on features used
 
-## 3. Firebase
-This app uses Firebase (Google Inc.).  
-Firebase may collect:
-- Usage data  
-- Device information  
-- Crash reports  
-More information:  
-https://firebase.google.com/support/privacy
+- Account data: email address, username, user ID, account/access status and optional profile image.
+- Saved app data: favorite server IDs and alert rules.
+- Notifications: FCM push token and device platform when notifications are used.
+- Player sightings: server reference, in-game name, platform ID, tribe name, gaming platform, optional note and sharing scope. Creator email is not stored in newly shared sighting documents.
+- Premium verification: user ID, platform, product ID, purchase ID, purchase token and verification status. Payment card/bank details are handled by the store and are not processed by ASA Server Eye.
+- Advertising/SDK data: Google AdMob may process IP address, device/account identifiers, app interactions and diagnostic information for advertising, analytics and fraud prevention.
 
-## 4. Google AdMob
-This app uses Google AdMob to display ads.  
-AdMob may collect:
-- Device identifiers  
-- Usage data  
-- Advertising ID  
-More information:  
-https://policies.google.com/privacy
+## Services
 
-## 5. Purpose of Data Processing
-We process data to:
-- Provide app functionality  
-- Improve performance  
-- Display ads  
+ASA Server Eye uses Google/Firebase services including Firebase Authentication, Cloud Firestore, Firebase Storage, Firebase Cloud Messaging and Cloud Functions. Google AdMob is used for advertising and Google Play may be used to verify purchases.
 
-## 6. Data Sharing
-We do not sell personal data.  
-Data may be shared with:
-- Google (Firebase & AdMob)  
+For users in the EEA, UK and Switzerland, Google UMP consent handling runs before ad requests. Where privacy options are required, users can reopen them from the app's privacy screen.
 
-## 7. User Rights
-You have the right to:
-- Request access to your data  
-- Request deletion of your data  
+## Sharing
 
-## 8. Contact
+Personal data is not sold. Data may be transmitted to Google/Firebase, Google AdMob and the applicable app store as required to provide the relevant feature. Player sightings are shared with other eligible users only when the sharing feature is selected; creator email is excluded from shared sighting data.
+
+## Account deletion
+
+Registered users can delete their account in the app after reauthentication. Server-side deletion removes the authentication account, user profile/subcollections, profile image, user-owned sightings/history, purchase verification requests, subscription assignment and other directly user-owned app data. If in-app deletion is unavailable, contact michael.winkler.developer@gmail.com.
+
+## Contact
+
 Email: michael.winkler.developer@gmail.com
-
-## 9. Changes
-We may update this privacy policy at any time.
